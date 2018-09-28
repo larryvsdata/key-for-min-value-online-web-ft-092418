@@ -20,7 +20,7 @@ name_hash.collect do |name, num|
 end
 
 end
-minVal
+minName
 end
 
 
