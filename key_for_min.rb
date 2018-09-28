@@ -8,11 +8,12 @@ valueList=name_hash.values
 
 minVal=valueList.min
 
-name_hash=[name_hash.min_by{|k, v| v}].to_h
+
 
 if name_hash.empty?
   nil
   else
+    name_hash=[name_hash.min_by{|k, v| v}].to_h
 name_hash.keys[0]
 end
 
